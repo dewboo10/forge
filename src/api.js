@@ -3,7 +3,7 @@
 // Base URL: set VITE_API_URL in .env
 // ═══════════════════════════════════════════════════════════
 
-const BASE = import.meta.env.VITE_API_URL || 'http://localhost:3001'
+const BASE = 'https://forgebackend-production-4674.up.railway.app'
 
 async function req(method, path, body) {
   const tg = window?.Telegram?.WebApp
