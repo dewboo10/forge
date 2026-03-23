@@ -1,0 +1,3 @@
+[build]
+  command = "chmod -R 755 node_modules/.bin && npm run build"
+  publish = "dist"
