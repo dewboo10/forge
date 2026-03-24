@@ -1,9 +1,0 @@
-[build]
-  command = "chmod -R 755 node_modules/.bin && npm run build"
-  publish = "dist"
-
-
-[build.environment]
-  VITE_API_URL = ""
-  VITE_TON_NETWORK = ""
-  SECRETS_SCAN_OMIT_KEYS = "VITE_API_URL,VITE_TON_NETWORK"
